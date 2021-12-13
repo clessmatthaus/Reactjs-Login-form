@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.login{
+  width:100%;
+  height:100vh;
+  display:grid;
+  justify-content:center;
+
+}
+.main-login{
+  width:430px;
+  height:300px;
+  background-color:rgb(106, 148, 236);
+  margin-top:-300px;
+  padding:25px 25px;
+  border-radius:10px;
+  color:white;
+  transform: translate(-50% -50%);
+  box-shadow:-10px 8px 8px grey;
+}
+h1{color:red;
+padding:50px;
+margin-top:130px;
+}
+.username{
+  margin-top:10px;
+}
+.mdp{
+  margin-top:10px;
+}
+.btn-conect{
+  color:white;
+  background-color:blue;
+  cursor:pointer;
+  padding:4px;
+  margin-top:5px;
+  border-radius:8px;
+
+}.motdepasse{margin-top:10px;
+text-align:center;
+color:red;
+}
+.facebook-login{
+  color:#4CFFFF;
+  font-weight:bold;
+  margin-top:5px;
+  cursor:pointer;
+}
+.instagram-login{
+  color:#e1308c;
+  font-weight:bold;
+  margin-top:5px;
+  cursor:pointer;
+}
+.fas, .fa{
+  color:black;
+  width:50px;
+  height:30px;
+}
+input{
+  width:340px;
+  height:25px;
+  border-radius:5px;
+
+}
+.enregistrement, .ap, .login-conect{
+  color:white;
+  text-shadow:-4px 2px 2px black;
+  font-weight:bold;
+  font-size:15px;
+  cursor:pointer;
+}
